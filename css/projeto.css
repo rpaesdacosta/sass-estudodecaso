@@ -5,31 +5,16 @@
 .cabecalho {
   width: 980px;
   margin: 0 auto; }
-
-/*******************************/
-/* IN├ìCIO CABE├çALHO INFORMA├ç├âO */
-/*******************************/
-.cabecalho-informacao {
-  background-color: #f1f1f1;
-  /* definindo cor de fundo */
-  /**
-   * Este recurso dever├í sempre ser usado em estruturas
-   * que possuam filhos que recebam propriedades float.
-   */
-  overflow: auto; }
-
-/**
- * Estilos para qualquer elemento a
- * dentro de cabecalho-informacao
- */
-.cabecalho-informacao a {
-  color: #726060;
-  /* definindo cor do texto */
-  text-decoration: none;
-  /* removendo "underline" */
-  font-size: 12px;
-  /* definindo tamanho do texto */
-  font-weight: bold; }
+  .cabecalho-informacao {
+    background-color: #f1f1f1;
+    overflow: auto; }
+    .cabecalho-informacao .a {
+      color: #726060;
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: bold; }
+      .cabecalho-informacao .a:hover {
+        text-decoration: underline; }
 
 /**
  * utilizando o :hover apenas para que o css aplique
@@ -420,7 +405,7 @@
   background: yellow; }
 
 p {
-  font-size: 1rem;
+  font-size: 1;
   line-height: 1.2;
   color: blue; }
 

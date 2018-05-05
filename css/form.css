@@ -1,0 +1,8 @@
+.contato, .ouvidoria, .cabecalho {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.ouvidoria, .cabecalho {
+  background-color: #ccc; }
+
+/*# sourceMappingURL=form.css.map */

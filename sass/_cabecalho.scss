@@ -4,31 +4,21 @@
 .cabecalho{
     width: 980px;
     margin: 0 auto;
+	&-informacao{
+		background-color: #f1f1f1;
+		overflow: auto;
+		.a {
+			color: #726060; 
+			text-decoration: none; 
+			font-size: 12px; 
+			font-weight: bold; 
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+	}
 }
 
-
-/*******************************/
-/* INÍCIO CABEÇALHO INFORMAÇÃO */
-/*******************************/
-.cabecalho-informacao{
-    background-color: #f1f1f1; /* definindo cor de fundo */
-    /**
-     * Este recurso deverá sempre ser usado em estruturas
-     * que possuam filhos que recebam propriedades float.
-     */
-    overflow: auto;
-}
-
-/**
- * Estilos para qualquer elemento a
- * dentro de cabecalho-informacao
- */
-.cabecalho-informacao a{
-    color: #726060; /* definindo cor do texto */
-    text-decoration: none; /* removendo "underline" */
-    font-size: 12px; /* definindo tamanho do texto */
-    font-weight: bold /* definindo estilo bold para o texto */
-}
 /**
  * utilizando o :hover apenas para que o css aplique
  * os efeitos quando o mouse estiver sobre o elemento

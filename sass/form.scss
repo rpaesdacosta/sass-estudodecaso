@@ -1,0 +1,17 @@
+.contato {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ouvidoria {
+  @extend .contato;
+  background-color: #ccc;
+}
+
+@mixin aplicaEstilo($aplica){
+  @if $aplica { @extend .ouvidoria; }
+}
+
+.cabecalho{
+  @include aplicaEstilo(true);  
+}

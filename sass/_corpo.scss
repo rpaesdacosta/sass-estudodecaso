@@ -1,4 +1,4 @@
-$vermelho: red;
+$borderStyle: 1px solid #ccc;
 /**
 * Inicio do Corpo Estrutural
 * Composto de 4 Estruturas
@@ -9,7 +9,6 @@ $vermelho: red;
     margin: 0 auto;
     overflow: auto;
     padding: 10px 0 0 0;
-    background: $vermelho;
 }
 
 /**
@@ -60,10 +59,10 @@ $vermelho: red;
     margin: 0 10px;
     padding: 3px 10px;
     list-style: none;
-    border-top: 1px solid #ccc;
+    border-top: $borderStyle;
 }
 .corpo .estrutura-lateral ul.menu-destaque li:last-child{
-    border-bottom: 1px solid #ccc;
+    border-bottom: $borderStyle;
 }
 .corpo .estrutura-lateral ul.menu-destaque li a{
     text-decoration: none;
@@ -80,7 +79,7 @@ $vermelho: red;
 }
 .corpo .estrutura-lateral ul.menu-estruturado li a{
     color: #333;
-    border-bottom: 1px solid #ccc;
+    border-bottom: $borderStyle;
     padding: 10px 20px;
     text-decoration: none;
     font-size: 15px;

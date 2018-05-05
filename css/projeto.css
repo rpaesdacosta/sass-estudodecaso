@@ -214,8 +214,7 @@
   width: 980px;
   margin: 0 auto;
   overflow: auto;
-  padding: 10px 0 0 0;
-  background: red; }
+  padding: 10px 0 0 0; }
 
 /**
  * Estrutura 1. Banner
@@ -419,5 +418,13 @@
 
 .rodape {
   background: yellow; }
+
+p {
+  font-size: 1rem;
+  line-height: 1.2;
+  color: blue; }
+
+a {
+  color: blue; }
 
 /*# sourceMappingURL=projeto.css.map */
